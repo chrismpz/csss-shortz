@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style/css/styles.css">
+</head>
+<div class="f-col g-l">
+    <div class="f-col g-m">
+        <div class="f-row ">
+            <h0>FONTS<h0>
+        </div>
+        <div class="f-row">
+            <div class="f-col-1 g-s">
+                <h0>&lt;h0&gt; Font</span></h0>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h1>&lt;h1&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h1>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h2>&lt;h2&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h2>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h3>&lt;h3&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h3>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h4>&lt;h4&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h4>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h5>&lt;h5&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h5>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <h6>&lt;h6&gt; Font <span class="fontname"> </span> <span class="fontclass"></span></h6>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+            </div>
+            <div class="f-col-1 g-s">
+                <p>&lt;p&gt; p <span class="fontname"> </span> <span class="fontclass"></span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</p>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <p><b>&lt;b&gt; b/strong <span class="fontname"> </span> <span class="fontclass"></span></b></p>
+                <p>font-family: <span class="font-family"> </span> | font-size: <span class="font-size"></span> | line-height: <span class="line-height"></span>  | letter-spacing: <span class="letter-spacing"></span> | font-weight: <span class="font-weight"></span></p>
+                <a>&lt;a&gt; a link <span class="fontname"> </span> <span class="fontclass"></span></a>
+                <div>
+                    <p>&lt;ul&gt; List example</p>
+                    <ul>
+                        <li>&lt;li&gt;List Item 1</li>
+                        <li>&lt;li&gt;List Item 2</li>
+                        <li>&lt;li&gt;List Item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script>
+
+
+    function present_css(x){
+        jQuery('.' + x).each(function() {
+            var value = jQuery( this ).parent().prev().css(x);
+            jQuery( this ).text(value);
+        });
+    }
+
+    present_css('font-family');
+    present_css('font-size');
+    present_css('line-height');
+    present_css('letter-spacing');
+    present_css('font-weight');
+    
+
+</script>
+</html>
+

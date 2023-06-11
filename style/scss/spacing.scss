@@ -1,0 +1,1477 @@
+// Gap
+
+.g{
+    &-xxxs{
+        gap: $xxxs; 
+        &-xxxs{
+            gap: $xxxs  $xxxs; 
+        }
+        &-xxs{
+            gap: $xxxs  $xxs; 
+        }
+        &-xs{
+            gap: $xxxs  $xs; 
+        }
+        &-s{
+            gap: $xxxs  $s; 
+        }
+        &-m{
+            gap: $xxxs  $m; 
+        }
+        &-l{
+            gap: $xxxs  $l; 
+        }
+        &-xl{
+            gap: $xxxs  $xl; 
+        }
+        &-xxl{
+            gap: $xxxs  $xxl; 
+        }
+        &-xxxl{
+            gap: $xxxs  $xxxl; 
+        }
+    }
+    &-xxs{
+        gap: $xxs; 
+        &-xxxs{
+            gap: $xxs  $xxxs; 
+        }
+        &-xxs{
+            gap: $xxs  $xxs; 
+        }
+        &-xs{
+            gap: $xxs  $xs; 
+        }
+        &-s{
+            gap: $xxs  $s; 
+        }
+        &-m{
+            gap: $xxs  $m; 
+        }
+        &-l{
+            gap: $xxs  $l; 
+        }
+        &-xl{
+            gap: $xxs  $xl; 
+        }
+        &-xxl{
+            gap: $xxs  $xxl; 
+        }
+        &-xxxl{
+            gap: $xxs  $xxxl; 
+        }
+    }
+    &-xs{
+        gap: $xs; 
+        &-xxxs{
+            gap: $xs  $xxxs; 
+        }
+        &-xxs{
+            gap: $xs  $xxs; 
+        }
+        &-xs{
+            gap: $xs  $xs; 
+        }
+        &-s{
+            gap: $xs  $s; 
+        }
+        &-m{
+            gap: $xs  $m; 
+        }
+        &-l{
+            gap: $xs  $l; 
+        }
+        &-xl{
+            gap: $xs  $xl; 
+        }
+        &-xxl{
+            gap: $xs  $xxl; 
+        }
+        &-xxxl{
+            gap: $xs  $xxxl; 
+        }
+    }
+    &-s{
+        gap: $s; 
+        &-xxxs{
+            gap: $s $xxxs; 
+        }
+        &-xxs{
+            gap: $s $xxs; 
+        }
+        &-xs{
+            gap: $s $xs; 
+        }
+        &-s{
+            gap: $s $s; 
+        }
+        &-m{
+            gap: $s $m; 
+        }
+        &-l{
+            gap: $s $l; 
+        }
+        &-xl{
+            gap: $s $xl; 
+        }
+        &-xxl{
+            gap: $s $xxl; 
+        }
+        &-xxxl{
+            gap: $s $xxxl; 
+        }
+    }
+    &-m{
+        gap: $m; 
+        &-xxxs{
+            gap: $m $xxxs; 
+        }
+        &-xxs{
+            gap: $m $xxs; 
+        }
+        &-xs{
+            gap: $m $xs; 
+        }
+        &-s{
+            gap: $m $s; 
+        }
+        &-m{
+            gap: $m $m; 
+        }
+        &-l{
+            gap: $m $l; 
+        }
+        &-xl{
+            gap: $m $xl; 
+        }
+        &-xxl{
+            gap: $m $xxl; 
+        }
+        &-xxxl{
+            gap: $m $xxxl; 
+        }
+    }
+    &-l{
+        gap: $l; 
+        &-xxxs{
+            gap: $l $xxxs; 
+        }
+        &-xxs{
+            gap: $l $xxs; 
+        }
+        &-xs{
+            gap: $l $xs; 
+        }
+        &-s{
+            gap: $l $s; 
+        }
+        &-m{
+            gap: $l $m; 
+        }
+        &-l{
+            gap: $l $l; 
+        }
+        &-xl{
+            gap: $l $xl; 
+        }
+        &-xxl{
+            gap: $l $xxl; 
+        }
+        &-xxxl{
+            gap: $l $xxxl; 
+        }
+    }
+    &-xl{
+        gap: $xl; 
+        &-xxxs{
+            gap: $xl $xxxs; 
+        }
+        &-xxs{
+            gap: $xl $xxs; 
+        }
+        &-xs{
+            gap: $xl $xs; 
+        }
+        &-s{
+            gap: $xl $s; 
+        }
+        &-m{
+            gap: $xl $m; 
+        }
+        &-l{
+            gap: $xl $l; 
+        }
+        &-xl{
+            gap: $xl $xl; 
+        }
+        &-xxl{
+            gap: $xl $xxl; 
+        }
+        &-xxxl{
+            gap: $xl $xxxl; 
+        }
+    }
+    &-xxl{
+        gap: $xxl; 
+        &-xxxs{
+            gap: $xxl $xxxs; 
+        }
+        &-xxs{
+            gap: $xxl $xxs; 
+        }
+        &-xs{
+            gap: $xxl $xs; 
+        }
+        &-s{
+            gap: $xxl $s; 
+        }
+        &-m{
+            gap: $xxl $m; 
+        }
+        &-l{
+            gap: $xxl $l; 
+        }
+        &-xl{
+            gap: $xxl $xl; 
+        }
+        &-xxl{
+            gap: $xxl $xxl; 
+        }
+        &-xxxl{
+            gap: $xxl $xxxl; 
+        }
+    }
+    &-xxxl{
+        gap: $xxxl; 
+        &-xxxs{
+            gap: $xxxl $xxxs; 
+        }
+        &-xxs{
+            gap: $xxxl $xxs; 
+        }
+        &-xs{
+            gap: $xxxl $xs; 
+        }
+        &-s{
+            gap: $xxxl $s; 
+        }
+        &-m{
+            gap: $xxxl $m; 
+        }
+        &-l{
+            gap: $xxxl $l; 
+        }
+        &-xl{
+            gap: $xxxl $xl; 
+        }
+        &-xxl{
+            gap: $xxxl $xxl; 
+        }
+        &-xxxl{
+            gap: $xxxl $xxxl; 
+        }
+    }
+}
+
+// Padding-[size]-[x,y] = p-size-xy
+// values | "" = all, t = top, r = right, b = bottom, l = left,
+
+.p{
+    &-xxxs{
+        padding: $xxxs; 
+        &-t{
+            padding-top: $xxxs;
+        }
+        &-r{
+            padding-right: $xxxs;
+        }
+        &-b{
+            padding-bottom: $xxxs;
+        }
+        &-l{
+            padding-left: $xxxs;
+        }
+        &-tr, &-rt{
+            padding-right: $xxxs;
+            padding-top: $xxxs;
+        }
+        &-br, &-rb{
+            padding-right: $xxxs;
+            padding-top: $xxxs;
+        }
+        &-rl, &-lr{
+            padding-right: $xxxs;
+            padding-left: $xxxs;
+        }
+        &-tb, &-bt{
+            padding-top: $xxxs;
+            padding-bottom: $xxxs;
+        }
+        &-lb, &-bl{
+            padding-left: $xxxs;
+            padding-bottom: $xxxs;
+        }
+        &-lt, &-tl{
+            padding-left: $xxxs;
+            padding-top: $xxxs;
+        }
+        &-xxxs{
+            padding: $xxxs $xxxs; 
+        }
+        &-xxs{
+            padding: $xxxs $xxs; 
+        }
+        &-xs{
+            padding: $xxxs $xs; 
+        }
+        &-s{
+            padding: $xxxs $s; 
+        }
+        &-m{
+            padding: $xxxs $m; 
+        }
+        &-l{
+            padding: $xxxs $l; 
+        }
+        &-xl{
+            padding: $xxxs $xl; 
+        }
+        &-xxl{
+            padding: $xxxs $xxl; 
+        }
+        &-xxxl{
+            padding: $xxxs $xxxl; 
+        }
+    }
+    &-xxs{
+        gap: $xxs; 
+        &-t{
+            padding-top: $xxs;
+        }
+        &-r{
+            padding-right: $xxs;
+        }
+        &-b{
+            padding-bottom: $xxs;
+        }
+        &-l{
+            padding-left: $xxs;
+        }
+        &-tr, &-rt{
+            padding-right: $xxs;
+            padding-top: $xxs;
+        }
+        &-br, &-rb{
+            padding-right: $xxs;
+            padding-top: $xxs;
+        }
+        &-rl, &-lr{
+            padding-right: $xxs;
+            padding-left: $xxs;
+        }
+        &-tb, &-bt{
+            padding-top: $xxs;
+            padding-bottom: $xxs;
+        }
+        &-lb, &-bl{
+            padding-left: $xxs;
+            padding-bottom: $xxs;
+        }
+        &-lt, &-tl{
+            padding-left: $xxs;
+            padding-top: $xxs;
+        }
+        &-xxxs{
+            padding: $xxs $xxxs; 
+        }
+        &-xxs{
+            padding: $xxs $xxs; 
+        }
+        &-xs{
+            padding: $xxs $xs; 
+        }
+        &-s{
+            padding: $xxs $s; 
+        }
+        &-m{
+            padding: $xxs $m; 
+        }
+        &-l{
+            padding: $xxs $l; 
+        }
+        &-xl{
+            padding: $xxs $xl; 
+        }
+        &-xxl{
+            padding: $xxs $xxl; 
+        }
+        &-xxxl{
+            padding: $xxs $xxxl; 
+        }
+    }
+    &-xs{
+        gap: $xs; 
+        &-t{
+            padding-top: $xs;
+        }
+        &-r{
+            padding-right: $xs;
+        }
+        &-b{
+            padding-bottom: $xs;
+        }
+        &-l{
+            padding-left: $xs;
+        }
+        &-tr, &-rt{
+            padding-right: $xs;
+            padding-top: $xs;
+        }
+        &-br, &-rb{
+            padding-right: $xs;
+            padding-top: $xs;
+        }
+        &-rl, &-lr{
+            padding-right: $xs;
+            padding-left: $xs;
+        }
+        &-tb, &-bt{
+            padding-top: $xs;
+            padding-bottom: $xs;
+        }
+        &-lb, &-bl{
+            padding-left: $xs;
+            padding-bottom: $xs;
+        }
+        &-lt, &-tl{
+            padding-left: $xs;
+            padding-top: $xs;
+        }
+        &-xxxs{
+            padding: $xs $xxxs; 
+        }
+        &-xxs{
+            padding: $xs $xxs; 
+        }
+        &-xs{
+            padding: $xs $xs; 
+        }
+        &-s{
+            padding: $xs $s; 
+        }
+        &-m{
+            padding: $xs $m; 
+        }
+        &-l{
+            padding: $xs $l; 
+        }
+        &-xl{
+            padding: $xs $xl; 
+        }
+        &-xxl{
+            padding: $xs $xxl; 
+        }
+        &-xxxl{
+            padding: $xs $xxxl; 
+        }
+    }
+    &-s{
+        gap: $s; 
+        &-t{
+            padding-top: $s;
+        }
+        &-r{
+            padding-right: $s;
+        }
+        &-b{
+            padding-bottom: $s;
+        }
+        &-l{
+            padding-left: $s;
+        }
+        &-tr, &-rt{
+            padding-right: $s;
+            padding-top: $s;
+        }
+        &-br, &-rb{
+            padding-right: $s;
+            padding-top: $s;
+        }
+        &-rl, &-lr{
+            padding-right: $s;
+            padding-left: $s;
+        }
+        &-tb, &-bt{
+            padding-top: $s;
+            padding-bottom: $s;
+        }
+        &-lb, &-bl{
+            padding-left: $s;
+            padding-bottom: $s;
+        }
+        &-lt, &-tl{
+            padding-left: $s;
+            padding-top: $s;
+        }
+        &-xxxs{
+            padding: $s $xxxs; 
+        }
+        &-xxs{
+            padding: $s $xxs; 
+        }
+        &-xs{
+            padding: $s $xs; 
+        }
+        &-s{
+            padding: $s $s; 
+        }
+        &-m{
+            padding: $s $m; 
+        }
+        &-l{
+            padding: $s $l; 
+        }
+        &-xl{
+            padding: $s $xl; 
+        }
+        &-xxl{
+            padding: $s $xxl; 
+        }
+        &-xxxl{
+            padding: $s $xxxl; 
+        }
+    }
+    &-m{
+        gap: $m; 
+        &-t{
+            padding-top: $xxxs;
+        }
+        &-r{
+            padding-right: $m;
+        }
+        &-b{
+            padding-bottom: $m;
+        }
+        &-l{
+            padding-left: $m;
+        }
+        &-tr, &-rt{
+            padding-right: $m;
+            padding-top: $m;
+        }
+        &-br, &-rb{
+            padding-right: $m;
+            padding-top: $m;
+        }
+        &-rl, &-lr{
+            padding-right: $m;
+            padding-left: $m;
+        }
+        &-tb, &-bt{
+            padding-top: $m;
+            padding-bottom: $m;
+        }
+        &-lb, &-bl{
+            padding-left: $m;
+            padding-bottom: $m;
+        }
+        &-lt, &-tl{
+            padding-left: $m;
+            padding-top: $m;
+        }
+        &-xxxs{
+            padding: $m $xxxs; 
+        }
+        &-xxs{
+            padding: $m $xxs; 
+        }
+        &-xs{
+            padding: $m $xs; 
+        }
+        &-s{
+            padding: $m $s; 
+        }
+        &-m{
+            padding: $m $m; 
+        }
+        &-l{
+            padding: $m $l; 
+        }
+        &-xl{
+            padding: $m $xl; 
+        }
+        &-xxl{
+            padding: $m $xxl; 
+        }
+        &-xxxl{
+            padding: $m $xxxl; 
+        }
+    }
+    &-l{
+        gap: $l; 
+        &-t{
+            padding-top: $l;
+        }
+        &-r{
+            padding-right: $l;
+        }
+        &-b{
+            padding-bottom: $l;
+        }
+        &-l{
+            padding-left: $l;
+        }
+        &-tr, &-rt{
+            padding-right: $l;
+            padding-top: $l;
+        }
+        &-br, &-rb{
+            padding-right: $l;
+            padding-top: $l;
+        }
+        &-rl, &-lr{
+            padding-right: $l;
+            padding-left: $l;
+        }
+        &-tb, &-bt{
+            padding-top: $l;
+            padding-bottom: $l;
+        }
+        &-lb, &-bl{
+            padding-left: $l;
+            padding-bottom: $l;
+        }
+        &-lt, &-tl{
+            padding-left: $l;
+            padding-top: $l;
+        }
+        &-xxxs{
+            padding: $l $xxxs; 
+        }
+        &-xxs{
+            padding: $l $xxs; 
+        }
+        &-xs{
+            padding: $l $xs; 
+        }
+        &-s{
+            padding: $l $s; 
+        }
+        &-m{
+            padding: $l $m; 
+        }
+        &-l{
+            padding: $l $l; 
+        }
+        &-xl{
+            padding: $l $xl; 
+        }
+        &-xxl{
+            padding: $l $xxl; 
+        }
+        &-xxxl{
+            padding: $l $xxxl; 
+        }
+    }
+    &-xl{
+        gap: $xl; 
+        &-t{
+            padding-top: $xl;
+        }
+        &-r{
+            padding-right: $xl;
+        }
+        &-b{
+            padding-bottom: $xl;
+        }
+        &-l{
+            padding-left: $xl;
+        }
+        &-tr, &-rt{
+            padding-right: $xl;
+            padding-top: $xl;
+        }
+        &-br, &-rb{
+            padding-right: $xl;
+            padding-top: $xl;
+        }
+        &-rl, &-lr{
+            padding-right: $xl;
+            padding-left: $xl;
+        }
+        &-tb, &-bt{
+            padding-top: $xl;
+            padding-bottom: $xl;
+        }
+        &-lb, &-bl{
+            padding-left: $xl;
+            padding-bottom: $xl;
+        }
+        &-lt, &-tl{
+            padding-left: $xl;
+            padding-top: $xl;
+        }
+        &-xxxs{
+            padding: $xl $xxxs; 
+        }
+        &-xxs{
+            padding: $xl $xxs; 
+        }
+        &-xs{
+            padding: $xl $xs; 
+        }
+        &-s{
+            padding: $xl $s; 
+        }
+        &-m{
+            padding: $xl $m; 
+        }
+        &-l{
+            padding: $xl $l; 
+        }
+        &-xl{
+            padding: $xl $xl; 
+        }
+        &-xxl{
+            padding: $xl $xxl; 
+        }
+        &-xxxl{
+            padding: $xl $xxxl; 
+        }
+    }
+    &-xxl{
+        gap: $xxl; 
+        &-t{
+            padding-top: $xxl;
+        }
+        &-r{
+            padding-right: $xxl;
+        }
+        &-b{
+            padding-bottom: $xxl;
+        }
+        &-l{
+            padding-left: $xxl;
+        }
+        &-tr, &-rt{
+            padding-right: $xxl;
+            padding-top: $xxl;
+        }
+        &-br, &-rb{
+            padding-right: $xxl;
+            padding-top: $xxl;
+        }
+        &-rl, &-lr{
+            padding-right: $xxl;
+            padding-left: $xxl;
+        }
+        &-tb, &-bt{
+            padding-top: $xxl;
+            padding-bottom: $xxl;
+        }
+        &-lb, &-bl{
+            padding-left: $xxl;
+            padding-bottom: $xxl;
+        }
+        &-lt, &-tl{
+            padding-left: $xxl;
+            padding-top: $xxl;
+        }
+        &-xxxs{
+            padding: $xxl $xxxs; 
+        }
+        &-xxs{
+            padding: $xxl $xxs; 
+        }
+        &-xs{
+            padding: $xxl $xs; 
+        }
+        &-s{
+            padding: $xxl $s; 
+        }
+        &-m{
+            padding: $xxl $m; 
+        }
+        &-l{
+            padding: $xxl $l; 
+        }
+        &-xl{
+            padding: $xxl $xl; 
+        }
+        &-xxl{
+            padding: $xxl $xxl; 
+        }
+        &-xxxl{
+            padding: $xxl $xxxl; 
+        }
+    }
+    &-xxxl{
+        gap: $xxxl; 
+        &-t{
+            padding-top: $xxxl;
+        }
+        &-r{
+            padding-right: $xxxl;
+        }
+        &-b{
+            padding-bottom: $xxxl;
+        }
+        &-l{
+            padding-left: $xxxl;
+        }
+        &-tr, &-rt{
+            padding-right: $xxxl;
+            padding-top: $xxxl;
+        }
+        &-br, &-rb{
+            padding-right: $xxxl;
+            padding-top: $xxxl;
+        }
+        &-rl, &-lr{
+            padding-right: $xxxl;
+            padding-left: $xxxl;
+        }
+        &-tb, &-bt{
+            padding-top: $xxxl;
+            padding-bottom: $xxxl;
+        }
+        &-lb, &-bl{
+            padding-left: $xxxl;
+            padding-bottom: $xxxl;
+        }
+        &-lt, &-tl{
+            padding-left: $xxxl;
+            padding-top: $xxxl;
+        }
+        &-xxxs{
+            padding: $xxxl $xxxs; 
+        }
+        &-xxs{
+            padding: $xxxl $xxs; 
+        }
+        &-xs{
+            padding: $xxxl $xs; 
+        }
+        &-s{
+            padding: $xxxl $s; 
+        }
+        &-m{
+            padding: $xxxl $m; 
+        }
+        &-l{
+            padding: $xxxl $l; 
+        }
+        &-xl{
+            padding: $xxxl $xl; 
+        }
+        &-xxl{
+            padding: $xxxl $xxl; 
+        }
+        &-xxxl{
+            padding: $xxxl $xxxl; 
+        }
+    }
+}
+
+// Margin
+
+.m{
+    &-xxxs{
+        margin: $xxxs; 
+        &-t{
+            margin-top: $xxxs;
+        }
+        &-r{
+            margin-right: $xxxs;
+        }
+        &-b{
+            margin-bottom: $xxxs;
+        }
+        &-l{
+            margin-left: $xxxs;
+        }
+        &-tr, &-rt{
+            margin-right: $xxxs;
+            margin-top: $xxxs;
+        }
+        &-br, &-rb{
+            margin-right: $xxxs;
+            margin-top: $xxxs;
+        }
+        &-rl, &-lr{
+            margin-right: $xxxs;
+            margin-left: $xxxs;
+        }
+        &-tb, &-bt{
+            margin-top: $xxxs;
+            margin-bottom: $xxxs;
+        }
+        &-lb, &-bl{
+            margin-left: $xxxs;
+            margin-bottom: $xxxs;
+        }
+        &-lt, &-tl{
+            margin-left: $xxxs;
+            margin-top: $xxxs;
+        }
+        &-xxxs{
+            margin: $xxxs $xxxs; 
+        }
+        &-xxs{
+            margin: $xxxs $xxs; 
+        }
+        &-xs{
+            margin: $xxxs $xs; 
+        }
+        &-s{
+            margin: $xxxs $s; 
+        }
+        &-m{
+            margin: $xxxs $m; 
+        }
+        &-l{
+            margin: $xxxs $l; 
+        }
+        &-xl{
+            margin: $xxxs $xl; 
+        }
+        &-xxl{
+            margin: $xxxs $xxl; 
+        }
+        &-xxxl{
+            margin: $xxxs $xxxl; 
+        }
+    }
+    &-xxs{
+        gap: $xxs; 
+        &-t{
+            margin-top: $xxs;
+        }
+        &-r{
+            margin-right: $xxs;
+        }
+        &-b{
+            margin-bottom: $xxs;
+        }
+        &-l{
+            margin-left: $xxs;
+        }
+        &-tr, &-rt{
+            margin-right: $xxs;
+            margin-top: $xxs;
+        }
+        &-br, &-rb{
+            margin-right: $xxs;
+            margin-top: $xxs;
+        }
+        &-rl, &-lr{
+            margin-right: $xxs;
+            margin-left: $xxs;
+        }
+        &-tb, &-bt{
+            margin-top: $xxs;
+            margin-bottom: $xxs;
+        }
+        &-lb, &-bl{
+            margin-left: $xxs;
+            margin-bottom: $xxs;
+        }
+        &-lt, &-tl{
+            margin-left: $xxs;
+            margin-top: $xxs;
+        }
+        &-xxxs{
+            margin: $xxs $xxxs; 
+        }
+        &-xxs{
+            margin: $xxs $xxs; 
+        }
+        &-xs{
+            margin: $xxs $xs; 
+        }
+        &-s{
+            margin: $xxs $s; 
+        }
+        &-m{
+            margin: $xxs $m; 
+        }
+        &-l{
+            margin: $xxs $l; 
+        }
+        &-xl{
+            margin: $xxs $xl; 
+        }
+        &-xxl{
+            margin: $xxs $xxl; 
+        }
+        &-xxxl{
+            margin: $xxs $xxxl; 
+        }
+    }
+    &-xs{
+        gap: $xs; 
+        &-t{
+            margin-top: $xs;
+        }
+        &-r{
+            margin-right: $xs;
+        }
+        &-b{
+            margin-bottom: $xs;
+        }
+        &-l{
+            margin-left: $xs;
+        }
+        &-tr, &-rt{
+            margin-right: $xs;
+            margin-top: $xs;
+        }
+        &-br, &-rb{
+            margin-right: $xs;
+            margin-top: $xs;
+        }
+        &-rl, &-lr{
+            margin-right: $xs;
+            margin-left: $xs;
+        }
+        &-tb, &-bt{
+            margin-top: $xs;
+            margin-bottom: $xs;
+        }
+        &-lb, &-bl{
+            margin-left: $xs;
+            margin-bottom: $xs;
+        }
+        &-lt, &-tl{
+            margin-left: $xs;
+            margin-top: $xs;
+        }
+        &-xxxs{
+            margin: $xs $xxxs; 
+        }
+        &-xxs{
+            margin: $xs $xxs; 
+        }
+        &-xs{
+            margin: $xs $xs; 
+        }
+        &-s{
+            margin: $xs $s; 
+        }
+        &-m{
+            margin: $xs $m; 
+        }
+        &-l{
+            margin: $xs $l; 
+        }
+        &-xl{
+            margin: $xs $xl; 
+        }
+        &-xxl{
+            margin: $xs $xxl; 
+        }
+        &-xxxl{
+            margin: $xs $xxxl; 
+        }
+    }
+    &-s{
+        gap: $s; 
+        &-t{
+            margin-top: $s;
+        }
+        &-r{
+            margin-right: $s;
+        }
+        &-b{
+            margin-bottom: $s;
+        }
+        &-l{
+            margin-left: $s;
+        }
+        &-tr, &-rt{
+            margin-right: $s;
+            margin-top: $s;
+        }
+        &-br, &-rb{
+            margin-right: $s;
+            margin-top: $s;
+        }
+        &-rl, &-lr{
+            margin-right: $s;
+            margin-left: $s;
+        }
+        &-tb, &-bt{
+            margin-top: $s;
+            margin-bottom: $s;
+        }
+        &-lb, &-bl{
+            margin-left: $s;
+            margin-bottom: $s;
+        }
+        &-lt, &-tl{
+            margin-left: $s;
+            margin-top: $s;
+        }
+        &-xxxs{
+            margin: $s $xxxs; 
+        }
+        &-xxs{
+            margin: $s $xxs; 
+        }
+        &-xs{
+            margin: $s $xs; 
+        }
+        &-s{
+            margin: $s $s; 
+        }
+        &-m{
+            margin: $s $m; 
+        }
+        &-l{
+            margin: $s $l; 
+        }
+        &-xl{
+            margin: $s $xl; 
+        }
+        &-xxl{
+            margin: $s $xxl; 
+        }
+        &-xxxl{
+            margin: $s $xxxl; 
+        }
+    }
+    &-m{
+        gap: $m; 
+        &-t{
+            margin-top: $xxxs;
+        }
+        &-r{
+            margin-right: $m;
+        }
+        &-b{
+            margin-bottom: $m;
+        }
+        &-l{
+            margin-left: $m;
+        }
+        &-tr, &-rt{
+            margin-right: $m;
+            margin-top: $m;
+        }
+        &-br, &-rb{
+            margin-right: $m;
+            margin-top: $m;
+        }
+        &-rl, &-lr{
+            margin-right: $m;
+            margin-left: $m;
+        }
+        &-tb, &-bt{
+            margin-top: $m;
+            margin-bottom: $m;
+        }
+        &-lb, &-bl{
+            margin-left: $m;
+            margin-bottom: $m;
+        }
+        &-lt, &-tl{
+            margin-left: $m;
+            margin-top: $m;
+        }
+        &-xxxs{
+            margin: $m $xxxs; 
+        }
+        &-xxs{
+            margin: $m $xxs; 
+        }
+        &-xs{
+            margin: $m $xs; 
+        }
+        &-s{
+            margin: $m $s; 
+        }
+        &-m{
+            margin: $m $m; 
+        }
+        &-l{
+            margin: $m $l; 
+        }
+        &-xl{
+            margin: $m $xl; 
+        }
+        &-xxl{
+            margin: $m $xxl; 
+        }
+        &-xxxl{
+            margin: $m $xxxl; 
+        }
+    }
+    &-l{
+        gap: $l; 
+        &-t{
+            margin-top: $l;
+        }
+        &-r{
+            margin-right: $l;
+        }
+        &-b{
+            margin-bottom: $l;
+        }
+        &-l{
+            margin-left: $l;
+        }
+        &-tr, &-rt{
+            margin-right: $l;
+            margin-top: $l;
+        }
+        &-br, &-rb{
+            margin-right: $l;
+            margin-top: $l;
+        }
+        &-rl, &-lr{
+            margin-right: $l;
+            margin-left: $l;
+        }
+        &-tb, &-bt{
+            margin-top: $l;
+            margin-bottom: $l;
+        }
+        &-lb, &-bl{
+            margin-left: $l;
+            margin-bottom: $l;
+        }
+        &-lt, &-tl{
+            margin-left: $l;
+            margin-top: $l;
+        }
+        &-xxxs{
+            margin: $l $xxxs; 
+        }
+        &-xxs{
+            margin: $l $xxs; 
+        }
+        &-xs{
+            margin: $l $xs; 
+        }
+        &-s{
+            margin: $l $s; 
+        }
+        &-m{
+            margin: $l $m; 
+        }
+        &-l{
+            margin: $l $l; 
+        }
+        &-xl{
+            margin: $l $xl; 
+        }
+        &-xxl{
+            margin: $l $xxl; 
+        }
+        &-xxxl{
+            margin: $l $xxxl; 
+        }
+    }
+    &-xl{
+        gap: $xl; 
+        &-t{
+            margin-top: $xl;
+        }
+        &-r{
+            margin-right: $xl;
+        }
+        &-b{
+            margin-bottom: $xl;
+        }
+        &-l{
+            margin-left: $xl;
+        }
+        &-tr, &-rt{
+            margin-right: $xl;
+            margin-top: $xl;
+        }
+        &-br, &-rb{
+            margin-right: $xl;
+            margin-top: $xl;
+        }
+        &-rl, &-lr{
+            margin-right: $xl;
+            margin-left: $xl;
+        }
+        &-tb, &-bt{
+            margin-top: $xl;
+            margin-bottom: $xl;
+        }
+        &-lb, &-bl{
+            margin-left: $xl;
+            margin-bottom: $xl;
+        }
+        &-lt, &-tl{
+            margin-left: $xl;
+            margin-top: $xl;
+        }
+        &-xxxs{
+            margin: $xl $xxxs; 
+        }
+        &-xxs{
+            margin: $xl $xxs; 
+        }
+        &-xs{
+            margin: $xl $xs; 
+        }
+        &-s{
+            margin: $xl $s; 
+        }
+        &-m{
+            margin: $xl $m; 
+        }
+        &-l{
+            margin: $xl $l; 
+        }
+        &-xl{
+            margin: $xl $xl; 
+        }
+        &-xxl{
+            margin: $xl $xxl; 
+        }
+        &-xxxl{
+            margin: $xl $xxxl; 
+        }
+    }
+    &-xxl{
+        gap: $xxl; 
+        &-t{
+            margin-top: $xxl;
+        }
+        &-r{
+            margin-right: $xxl;
+        }
+        &-b{
+            margin-bottom: $xxl;
+        }
+        &-l{
+            margin-left: $xxl;
+        }
+        &-tr, &-rt{
+            margin-right: $xxl;
+            margin-top: $xxl;
+        }
+        &-br, &-rb{
+            margin-right: $xxl;
+            margin-top: $xxl;
+        }
+        &-rl, &-lr{
+            margin-right: $xxl;
+            margin-left: $xxl;
+        }
+        &-tb, &-bt{
+            margin-top: $xxl;
+            margin-bottom: $xxl;
+        }
+        &-lb, &-bl{
+            margin-left: $xxl;
+            margin-bottom: $xxl;
+        }
+        &-lt, &-tl{
+            margin-left: $xxl;
+            margin-top: $xxl;
+        }
+        &-xxxs{
+            margin: $xxl $xxxs; 
+        }
+        &-xxs{
+            margin: $xxl $xxs; 
+        }
+        &-xs{
+            margin: $xxl $xs; 
+        }
+        &-s{
+            margin: $xxl $s; 
+        }
+        &-m{
+            margin: $xxl $m; 
+        }
+        &-l{
+            margin: $xxl $l; 
+        }
+        &-xl{
+            margin: $xxl $xl; 
+        }
+        &-xxl{
+            margin: $xxl $xxl; 
+        }
+        &-xxxl{
+            margin: $xxl $xxxl; 
+        }
+    }
+    &-xxxl{
+        gap: $xxxl; 
+        &-t{
+            margin-top: $xxxl;
+        }
+        &-r{
+            margin-right: $xxxl;
+        }
+        &-b{
+            margin-bottom: $xxxl;
+        }
+        &-l{
+            margin-left: $xxxl;
+        }
+        &-tr, &-rt{
+            margin-right: $xxxl;
+            margin-top: $xxxl;
+        }
+        &-br, &-rb{
+            margin-right: $xxxl;
+            margin-top: $xxxl;
+        }
+        &-rl, &-lr{
+            margin-right: $xxxl;
+            margin-left: $xxxl;
+        }
+        &-tb, &-bt{
+            margin-top: $xxxl;
+            margin-bottom: $xxxl;
+        }
+        &-lb, &-bl{
+            margin-left: $xxxl;
+            margin-bottom: $xxxl;
+        }
+        &-lt, &-tl{
+            margin-left: $xxxl;
+            margin-top: $xxxl;
+        }
+        &-xxxs{
+            margin: $xxxl $xxxs; 
+        }
+        &-xxs{
+            margin: $xxxl $xxs; 
+        }
+        &-xs{
+            margin: $xxxl $xs; 
+        }
+        &-s{
+            margin: $xxxl $s; 
+        }
+        &-m{
+            margin: $xxxl $m; 
+        }
+        &-l{
+            margin: $xxxl $l; 
+        }
+        &-xl{
+            margin: $xxxl $xl; 
+        }
+        &-xxl{
+            margin: $xxxl $xxl; 
+        }
+        &-xxxl{
+            margin: $xxxl $xxxl; 
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.mw{
+    &-xxxs{
+        max-width: calc($ingrid  / 20);
+        
+    }
+    &-xxs{
+        max-width: calc($ingrid  / 10);
+    }
+    &-xs{
+        max-width: calc($ingrid  / 8);
+    }
+    &-s{
+        max-width: calc($ingrid  / 6);
+    }
+    &-m{
+        max-width: calc($ingrid  / 5);
+    }
+    &-l{
+        max-width: calc($ingrid  / 4);
+    }
+    &-xl{
+        max-width: calc($ingrid  / 3);
+    }
+    &-xxl{
+        max-width: calc($ingrid  / 2);
+    }
+    &-xxl{
+       max-width: $ingrid;
+    }
+
+}
