@@ -1,0 +1,110 @@
+@mixin spacing-sides($type, $size){
+    &-t{
+        #{$type}-top: $size;
+    }
+    &-r{
+        #{$type}-right: $size;
+    }
+    &-b{
+        #{$type}-bottom: $size;
+    }
+    &-l{
+        #{$type}-left: $size;
+    }
+    &-tr, &-rt{
+        #{$type}-right: $size;
+        #{$type}-top: $size;
+    }
+    &-br, &-rb{
+        #{$type}-right: $size;
+        #{$type}-top: $size;
+    }
+    &-rl, &-lr{
+        #{$type}-right: $size;
+        #{$type}-left: $size;
+    }
+    &-tb, &-bt{
+        #{$type}-top: $size;
+        #{$type}-bottom: $size;
+    }
+    &-lb, &-bl{
+        #{$type}-left: $size;
+        #{$type}-bottom: $size;
+    }
+    &-lt, &-tl{
+        #{$type}-left: $size;
+        #{$type}-top: $size;
+    }
+
+}
+
+@mixin spacing($type){
+    @include spacing-sides($type, 0);
+    &-xxxs{
+        @include spacing-size($type, $xxxs);
+     }
+     &-xxs{
+         @include spacing-size($type, $xxs);
+     }
+     &-xs{
+         @include spacing-size($type, $xs);
+     }
+     &-s{ 
+         @include spacing-size($type, $s);
+     }
+     &-m{
+         @include spacing-size($type, $m);
+     }
+     &-l{
+         @include spacing-size($type, $l);
+     }
+     &-xl{
+         @include spacing-size($type, $xl);
+     }
+     &-xxl{
+         @include spacing-size($type, $xxl);
+     }
+     &-xxxl{
+         @include spacing-size($type, $xxxl);
+     }
+
+}
+
+@mixin spacing-size($type, $size){
+    &-xxxs{
+        #{$type}: $size $xxxs; 
+        @include spacing-sides($type, $size);
+    }
+    &-xxs{
+        #{$type}: $size $xxs; 
+        @include spacing-sides($type, $size);
+    }
+    &-xs{
+        #{$type}: $size $xs; 
+        @include spacing-sides($type, $size);
+    }
+    &-s{
+        #{$type}: $size $s; 
+        @include spacing-sides($type, $size);
+    }
+    &-m{
+        #{$type}: $size $m; 
+        @include spacing-sides($type, $size);
+    }
+    &-l{
+        #{$type}: $size $l; 
+        @include spacing-sides($type, $size);
+    }
+    &-xl{
+        #{$type}: $size $xl; 
+        @include spacing-sides($type, $size);
+    }
+    &-xxl{
+        #{$type}: $size $xxl; 
+        @include spacing-sides($type, $size);
+    }
+    &-xxxl{
+        #{$type}: $size $xxxl; 
+        @include spacing-sides($type, $size);
+    }
+}
