@@ -32,6 +32,41 @@ $m: 20px;
 $l: 30px;
 $xl: 40px;
 $xxl: 80px;
-$xxxl: 120px
+$xxxl: 120px;
 
 
+$columns: 1, 2, 3, 4, 5, 6;
+$sizes-alpha: 'xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl';
+
+@function spacing-value($value) {
+    @if $value == "xxxs" {
+      @return $xxxs;
+    }
+    @if $value == "xxs" {
+        @return $xxs;
+    }
+    @if $value == "xs" {
+        @return $xs;
+    }
+    @if $value == "s" {
+        @return $s;
+    }
+    @if $value == "m" {
+        @return $m;
+    }
+    @if $value == "l" {
+        @return $l;
+    }
+    @if $value == "xl" {
+        @return $xl;
+    }    
+    @if $value == "xxl" {
+        @return $xxl;
+    }
+    @if $value == "xsxl" {
+        @return $xxxl;
+    }
+    @else{
+        @return 0;
+    }
+  }

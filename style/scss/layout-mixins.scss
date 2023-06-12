@@ -1,0 +1,73 @@
+@mixin layout-custom($direction){
+    &-r{
+        display: flex;
+        flex-direction: #{$direction}-reverse;
+    }
+}
+
+@mixin layout($direction){
+    display: flex;
+    flex-direction: $direction;
+    width: 100%;
+    @include layout-custom($direction);
+    @each $colunm in $columns {
+        &-#{$colunm}{
+            display: flex;
+            flex-direction: $direction;
+            flex: $colunm;
+            @include layout-custom($direction);
+        }
+    }
+}
+
+
+@mixin layout-grid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    @include layout-custom(row);
+    @each $colunm in $columns {
+        &-#{$colunm}{
+            display: flex;
+            flex-wrap: wrap;
+            @include layout-custom(row);
+            > div{
+                display: flex;
+                flex: 1 0 calc(100% / #{$colunm});
+                max-width: calc(100% / #{$colunm});
+            }
+            
+        }
+    }
+
+
+
+    @each $colunm in $columns {
+        @each $size in $sizes-alpha {
+            &-#{$colunm}.g-#{$size}{
+                display: flex;
+                flex-wrap: wrap;
+                @include layout-custom(row);
+                > div{
+                    display: flex;
+                    flex: 1 0 calc(100% / #{$colunm});
+                    max-width: calc((100% / #{$colunm}) - (( #{spacing-value($size)} * (#{$colunm} - 1) ) / #{$colunm} ) );
+                }
+                
+            }
+            @each $size-x in $sizes-alpha {
+                &-#{$colunm}.g-#{$size}#{$size-x}{
+                    display: flex;
+                    flex-wrap: wrap;
+                    @include layout-custom(row);
+                    > div{
+                        display: flex;
+                        flex: 1 0 calc(100% / #{$colunm});
+                        max-width: calc((100% / #{$colunm}) - (( #{spacing-value($size-x)} * (#{$colunm} - 1) ) / #{$colunm} ) );
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,110 +1,119 @@
+@mixin gap-xy($size-y){
+    @each $size-x in $sizes-alpha {
+        &#{$size-x}{
+            gap: spacing-value($size-y) spacing-value($size-x);
+        }
+    }
+}
+
+@mixin gap{
+    gap: 0px; 
+    @each $size-y in $sizes-alpha {
+        &-#{$size-y}{
+            gap: spacing-value($size-y);
+            @include gap-xy($size-y);
+        }
+    }
+}
+
 @mixin spacing-sides($type, $size){
     &-t{
-        #{$type}-top: $size;
+        #{$type}-top: spacing-value($size);
     }
     &-r{
-        #{$type}-right: $size;
+        #{$type}-right: spacing-value($size);
     }
     &-b{
-        #{$type}-bottom: $size;
+        #{$type}-bottom: spacing-value($size);
     }
     &-l{
-        #{$type}-left: $size;
+        #{$type}-left: spacing-value($size);
     }
     &-tr, &-rt{
-        #{$type}-right: $size;
-        #{$type}-top: $size;
+        #{$type}-right: spacing-value($size);
+        #{$type}-top: spacing-value($size);
     }
     &-br, &-rb{
-        #{$type}-right: $size;
-        #{$type}-top: $size;
+        #{$type}-right: spacing-value($size);
+        #{$type}-bottom: spacing-value($size);
     }
     &-rl, &-lr{
-        #{$type}-right: $size;
-        #{$type}-left: $size;
+        #{$type}-right: spacing-value($size);
+        #{$type}-left: spacing-value($size);
     }
     &-tb, &-bt{
-        #{$type}-top: $size;
-        #{$type}-bottom: $size;
+        #{$type}-top: spacing-value($size);
+        #{$type}-bottom: spacing-value($size);
     }
     &-lb, &-bl{
-        #{$type}-left: $size;
-        #{$type}-bottom: $size;
+        #{$type}-left: spacing-value($size);
+        #{$type}-bottom: spacing-value($size);
     }
     &-lt, &-tl{
-        #{$type}-left: $size;
-        #{$type}-top: $size;
+        #{$type}-left: spacing-value($size);
+        #{$type}-top: spacing-value($size);
     }
 
+}
+
+@mixin spacing-sides-2($type, $size-y, $size-x){
+    &-t{
+        #{$type}-top: spacing-value($size-y);
+    }
+    &-r{
+        #{$type}-right: spacing-value($size-x);
+    }
+    &-b{
+        #{$type}-bottom: spacing-value($size-y);
+    }
+    &-l{
+        #{$type}-left: spacing-value($size-x);
+    }
+    &-tr, &-rt{
+        #{$type}-right: spacing-value($size-x);
+        #{$type}-top: spacing-value($size-y);
+    }
+    &-br, &-rb{
+        #{$type}-right: spacing-value($size-x);
+        #{$type}-bottom: spacing-value($size-y);
+    }
+    &-rl, &-lr{
+        #{$type}-right: spacing-value($size-x);
+        #{$type}-left: spacing-value($size-y);
+    }
+    &-tb, &-bt{
+        #{$type}-top: spacing-value($size-y);
+        #{$type}-bottom: spacing-value($size-x);
+    }
+    &-lb, &-bl{
+        #{$type}-left: spacing-value($size-x);
+        #{$type}-bottom: spacing-value($size-y);
+    }
+    &-lt, &-tl{
+        #{$type}-left: spacing-value($size-x);
+        #{$type}-top: spacing-value($size-y);
+    }
+}
+
+@mixin spacing-xy($type, $size-x){
+    @include spacing-sides($type, $size-x);
+    @each $size-y in $sizes-alpha {
+        &#{$size-y}{
+            #{$type}: spacing-value($size-x) spacing-value($size-y);
+            @include spacing-sides-2($type, $size-x, $size-y); 
+           
+        }
+    }
 }
 
 @mixin spacing($type){
     @include spacing-sides($type, 0);
-    &-xxxs{
-        @include spacing-size($type, $xxxs);
-     }
-     &-xxs{
-         @include spacing-size($type, $xxs);
-     }
-     &-xs{
-         @include spacing-size($type, $xs);
-     }
-     &-s{ 
-         @include spacing-size($type, $s);
-     }
-     &-m{
-         @include spacing-size($type, $m);
-     }
-     &-l{
-         @include spacing-size($type, $l);
-     }
-     &-xl{
-         @include spacing-size($type, $xl);
-     }
-     &-xxl{
-         @include spacing-size($type, $xxl);
-     }
-     &-xxxl{
-         @include spacing-size($type, $xxxl);
-     }
 
-}
+    @each $size-x in $sizes-alpha {
+        &-#{$size-x}{
+            #{$type}: spacing-value($size-x);
+            @include spacing-xy($type, #{$size-x});
+        }
+    }
 
-@mixin spacing-size($type, $size){
-    &-xxxs{
-        #{$type}: $size $xxxs; 
-        @include spacing-sides($type, $size);
-    }
-    &-xxs{
-        #{$type}: $size $xxs; 
-        @include spacing-sides($type, $size);
-    }
-    &-xs{
-        #{$type}: $size $xs; 
-        @include spacing-sides($type, $size);
-    }
-    &-s{
-        #{$type}: $size $s; 
-        @include spacing-sides($type, $size);
-    }
-    &-m{
-        #{$type}: $size $m; 
-        @include spacing-sides($type, $size);
-    }
-    &-l{
-        #{$type}: $size $l; 
-        @include spacing-sides($type, $size);
-    }
-    &-xl{
-        #{$type}: $size $xl; 
-        @include spacing-sides($type, $size);
-    }
-    &-xxl{
-        #{$type}: $size $xxl; 
-        @include spacing-sides($type, $size);
-    }
-    &-xxxl{
-        #{$type}: $size $xxxl; 
-        @include spacing-sides($type, $size);
-    }
 }
